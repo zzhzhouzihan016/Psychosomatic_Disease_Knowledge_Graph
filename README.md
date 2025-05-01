@@ -11,7 +11,7 @@ This repository contains comprehensive datasets and analytical results from our 
 
 📊 File Descriptions
 
-### 1. Co-Drugs.xlsx
+1. Co-Drugs.xlsx
 | Column | Content                     |
 |--------|-----------------------------|
 | 1      | Disease entity A            |
@@ -19,7 +19,7 @@ This repository contains comprehensive datasets and analytical results from our 
 | 3      | Number of shared drugs      |
 | 4      | Network distance between diseases |
 
-### 2. Co-Symptoms.xlsx
+2. Co-Symptoms.xlsx
 | Column | Content                     |
 |--------|-----------------------------|
 | 1      | Disease entity A            |
@@ -27,7 +27,7 @@ This repository contains comprehensive datasets and analytical results from our 
 | 3      | Number of shared symptoms   |
 | 4      | Network distance between diseases |
 
-### 3. Drugs_Semantic.xlsx
+3. Drugs_Semantic.xlsx
 | Column | Content                     |
 |--------|-----------------------------|
 | 1      | Disease entity A            |
@@ -35,7 +35,7 @@ This repository contains comprehensive datasets and analytical results from our 
 | 3      | Semantic similarity score (0-1) |
 | 4      | Network distance between diseases |
 
-### 4. Relative_Risk.xlsx
+4. Relative_Risk.xlsx
 | Column | Content                     |
 |--------|-----------------------------|
 | 1      | Symptom entity A            |
@@ -47,7 +47,7 @@ This repository contains comprehensive datasets and analytical results from our 
 | 7      | Relative risk score         |
 | 8      | Network distance between symptoms |
 
-### 5. Symptom_Lcc.xlsx
+5. Symptom_Lcc.xlsx
 | Column | Content                     |
 |--------|-----------------------------|
 | 1      | Symptom entity              |
@@ -56,7 +56,7 @@ This repository contains comprehensive datasets and analytical results from our 
 | 4      | lcc [rand]                  |
 | 5      | z-score                     |
 
-### 6. Symptom_Separation.xlsx
+6. Symptom_Separation.xlsx
 | Column | Content                     |
 |--------|-----------------------------|
 | 1      | Disease entity A            |
@@ -68,9 +68,9 @@ This repository contains comprehensive datasets and analytical results from our 
 
 
 7. Psychosomatic_Disease_Knowledge_Graph (RDF)
-• Complete knowledge graph in RDF format
+Complete knowledge graph in RDF format
 
-• Contains all entities and relationships referenced in the Excel files
+Contains all entities and relationships referenced in the Excel files
 
 
 🌐 Usage
