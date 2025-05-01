@@ -1,4 +1,4 @@
-Psychosomatic Disease Knowledge Graph Analysis
+###Psychosomatic Disease Knowledge Graph Analysis
 
 This repository contains comprehensive datasets and analytical results from our research on psychosomatic disease relationships, presented in both Chinese and English to facilitate global collaboration.
 
