@@ -1,4 +1,4 @@
-### Psychosomatic Disease Knowledge Graph Analysis
+### Psychosomatic Disease Knowledge Graph
 
 This repository contains comprehensive datasets and analytical results from our research on psychosomatic disease relationships, presented in both Chinese and English to facilitate global collaboration.
 
@@ -73,6 +73,7 @@ This repository contains comprehensive datasets and analytical results from our 
 
 
 🌐 Usage
+
 • Chinese version: Use files in `Chinese/` folder
 
 • English version: Use files in `English/` folder
