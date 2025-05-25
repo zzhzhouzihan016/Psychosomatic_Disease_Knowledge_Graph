@@ -79,3 +79,22 @@ This repository contains comprehensive datasets and analytical results from our 
 • English version: Use files in `English/` folder
 
 • All columns maintain consistent meaning across language versions
+
+## Accessing the Knowledge Graph
+
+You can access the Neo4j Aura instance using the following credentials:
+
+🌐 URI: `neo4j+s://1f219389.databases.neo4j.io`
+👤 Username: `neo4j`
+🔑 Password: `yGy3CUougN_z-L3TRgWtpA3OwDxjjodUfEtibwmZnBQ`
+
+Use `py2neo` in Python or Neo4j Browser to run queries:
+
+```python
+from py2neo import Graph
+
+graph = Graph("neo4j+s://1f219389.databases.neo4j.io", auth=("neo4j", "your_password"))
+
+data = graph.run("MATCH (n)-[r]->(m) RETURN n, r, m LIMIT 10").data()
+print(data)
+
